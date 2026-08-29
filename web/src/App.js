@@ -6,6 +6,10 @@ import { SideMenu } from './components/SideMenu/SideMenu';
 
 
 function App() {
+
+      const[input, setInput] = useState("")
+      const[chatlog, setChatlog] = useState([{user: "gemini", message: "como posso te ajudar hoje?"}])
+
   return (
     <div className="App">
       <SideMenu></SideMenu>
