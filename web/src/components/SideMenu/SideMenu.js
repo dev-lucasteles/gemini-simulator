@@ -3,8 +3,8 @@ import './SideMenu.css'
 
 export const SideMenu = ()=>{
     return (
-        <aside className='sidemenu'>
-            <div className='sidemenu-button'>
+        <aside className='sideMenu'>
+            <div className='sideMenu-button'>
                 <span> + </span>
                 Novo Chat
             </div>
