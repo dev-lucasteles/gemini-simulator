@@ -13,7 +13,7 @@ O projeto adota uma arquitetura *Client-Server* separada em dois ambientes disti
 
 ---
 
-## 🔐 Configurando as Variáveis de Ambiente (.env)
+## Configurando as Variáveis de Ambiente (.env)
 
 O backend precisa de uma chave de API para se comunicar com o Google. Para manter essa chave segura e fora do código-fonte, utilizamos um arquivo `.env`.
 
@@ -32,7 +32,7 @@ PORT=3000
 
 ---
 
-## 💻 Configurando o Frontend e o Backend
+## Configurando o Frontend e o Backend
 
 Antes de iniciar, certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina. Você precisará instalar as dependências de cada pasta separadamente.
 
@@ -54,7 +54,7 @@ npm install
 
 ---
 
-## ▶️ Como Rodar a Aplicação
+## Como Rodar a Aplicação
 
 A aplicação exige que os dois servidores (Backend e Frontend) estejam rodando simultaneamente em **terminais separados**.
 
@@ -78,7 +78,7 @@ npm start
 
 ---
 
-## 🐛 Troubleshooting e Solução de Problemas
+## Troubleshooting e Solução de Problemas
 
 Caso você encontre erros durante a execução da aplicação, consulte as soluções abaixo:
 
